@@ -5,7 +5,7 @@ PYTHON := $(if $(wildcard $(VENV)/bin/python),$(VENV)/bin/python,python)
 PYTEST := $(PYTHON) -m pytest
 
 install:
-	pip install -e .[dev]
+	uv pip install -e .[dev]
 
 lint:
 	ruff check mirrorbench tests
