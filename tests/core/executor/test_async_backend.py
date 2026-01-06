@@ -247,7 +247,7 @@ def test_async_backend_prefers_async_session(tmp_path: Path) -> None:
     summary = backend.run(manifest.units)
 
     assert summary.run.extra.get("status") == STATUS_COMPLETED
-    assert SESSION_BEHAVIOR["async_calls"] == 2
+    assert SESSION_BEHAVIOR["async_calls"] == 2  # noqa: PLR2004
 
 
 def test_async_backend_retries(tmp_path: Path) -> None:

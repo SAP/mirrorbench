@@ -89,10 +89,12 @@ class RubricJudgeStub(ChatClient):
         self.reasoning = reasoning
 
     def invoke(self, *, messages: list[Message], **_: Any) -> ChatResponse:
-        verdict = "YES" if self.score >= 0.5 else "NO"
+        verdict = "YES" if self.score >= 0.5 else "NO"  # noqa: PLR2004
         payload = json.dumps({"verdict": verdict, "reasoning": self.reasoning})
         reply = Message(role=Role.ASSISTANT, content=payload)
-        return ChatResponse(message=reply, usage=None, raw={"verdict": verdict, "score": self.score})
+        return ChatResponse(
+            message=reply, usage=None, raw={"verdict": verdict, "score": self.score}
+        )
 
 
 class CritiqueJudgeStub(ChatClient):
@@ -109,7 +111,7 @@ class CritiqueJudgeStub(ChatClient):
         self.last_critique = "- unnatural phrasing"
 
     def invoke(self, *, messages: list[Message], **_: Any) -> ChatResponse:
-        verdict = "YES" if self.score >= 0.5 else "NO"
+        verdict = "YES" if self.score >= 0.5 else "NO"  # noqa: PLR2004
         user_prompt = messages[-1].content
         if "Return JSON" in user_prompt:
             payload = json.dumps(
@@ -120,7 +122,9 @@ class CritiqueJudgeStub(ChatClient):
                 }
             )
             reply = Message(role=Role.ASSISTANT, content=payload)
-            return ChatResponse(message=reply, usage=None, raw={"verdict": verdict, "score": self.score})
+            return ChatResponse(
+                message=reply, usage=None, raw={"verdict": verdict, "score": self.score}
+            )
 
         # Critique phase
         reply = Message(role=Role.ASSISTANT, content=self.last_critique)

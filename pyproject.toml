@@ -54,7 +54,7 @@ target-version = ["py312"]
 line-length = 100
 src = ["mirrorbench", "tests"]
 target-version = "py312"
-extend-exclude = ["scratch_pad"]
+extend-exclude = ["scratch_pad", "notebooks", "scripts"]
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "B", "I", "UP", "N", "SIM", "PL", "RUF"]

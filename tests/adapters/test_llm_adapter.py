@@ -99,9 +99,7 @@ class _AsyncStubChatClient(BaseChatClient):
         content = f"{self.prefix}:{last.content}"
         return ChatResponse(message=Message(role=Role.ASSISTANT, content=content))
 
-    async def invoke_async(
-        self, *, messages: Sequence[Message], **kwargs: object
-    ) -> ChatResponse:
+    async def invoke_async(self, *, messages: Sequence[Message], **kwargs: object) -> ChatResponse:
         self.async_calls += 1
         last = messages[-1]
         content = f"{self.prefix}:{last.content}"

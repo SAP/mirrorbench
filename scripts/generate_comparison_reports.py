@@ -40,7 +40,11 @@ def extract_metrics_from_summary(summary: dict[str, Any]) -> dict[str, float]:
         mean = agg.get("mean")
         if mean is not None:
             # Shorten metric names for CSV columns
-            short_name = metric_name.replace("metric:", "").replace("judge/", "j_").replace("lexical/", "lex_")
+            short_name = (
+                metric_name.replace("metric:", "")
+                .replace("judge/", "j_")
+                .replace("lexical/", "lex_")
+            )
             metrics[short_name] = mean
 
     # Extract scorecards
@@ -69,6 +73,7 @@ def generate_dataset_report(dataset_key: str, paths: Paths) -> None:
         try:
             with open(config_file, encoding="utf-8") as f:
                 import yaml
+
                 config = yaml.safe_load(f)
 
             run_name = config.get("run", {}).get("name")

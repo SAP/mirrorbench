@@ -26,7 +26,7 @@ from mirrorbench.core.executor.backend_registry import register_backend
 from mirrorbench.core.executor.controller import RunController
 from mirrorbench.core.models.errors import TaskDriverError
 from mirrorbench.core.models.messages import TurnTelemetry
-from mirrorbench.core.models.plan import EvalUnit, TaskDriverSpec
+from mirrorbench.core.models.plan import DatasetSpec, EvalUnit, TaskDriverSpec
 from mirrorbench.core.models.run import EpisodeResult, MetricValue, RunSummary
 from mirrorbench.core.registry import registry
 from mirrorbench.io.artifacts import dump_episode_artifact
@@ -146,7 +146,9 @@ class _ExecutionContext:
         try:
             dataset_spec = self._resolve_dataset_spec(unit)
             if dataset_spec is None:  # pragma: no cover - defensive
-                raise RuntimeError(f"Plan manifest is missing specifications for unit {unit.unit_id()}")
+                raise RuntimeError(
+                    f"Plan manifest is missing specifications for unit {unit.unit_id()}"
+                )
             for episode_spec in components.dataset.episodes(
                 spec=dataset_spec, split=dataset_spec.split
             ):

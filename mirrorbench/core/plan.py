@@ -199,7 +199,7 @@ class Planner:
 
     def _resolve_datasets(self) -> list[_ResolvedDataset]:
         resolved: list[_ResolvedDataset] = []
-        for idx, spec in enumerate(self._config.datasets):
+        for _, spec in enumerate(self._config.datasets):
             try:
                 entry = registry.get(REGISTRY_GROUP_DATASETS, spec.name)
             except RegistryError as exc:  # pragma: no cover - defensive

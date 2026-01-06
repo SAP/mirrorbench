@@ -112,7 +112,7 @@ def cmd_dryrun(args: argparse.Namespace) -> None:
     controller.close()
 
 
-def cmd_run(args: argparse.Namespace) -> None:
+def cmd_run(args: argparse.Namespace) -> None:  # noqa: PLR0915
     job_cfg = _load_config(args.config)
     paths = Paths.default()
     run_id = _resolve_run_id(paths, args.run_id, args.resume)
@@ -192,7 +192,9 @@ def cmd_run(args: argparse.Namespace) -> None:
 
     print(f"[mirrorbench] Run {run_id} finished with status: {status}")
     print(f"[mirrorbench] Units: {units_completed}/{units_total} completed")
-    print(f"[mirrorbench] Episodes: {episodes_successful}/{episodes_total} successful, {episodes_failed} failed")
+    print(
+        f"[mirrorbench] Episodes: {episodes_successful}/{episodes_total} successful, {episodes_failed} failed"
+    )
     print(json.dumps(summary_data, indent=2))
 
 
@@ -334,7 +336,7 @@ def cmd_runs_inspect(args: argparse.Namespace) -> None:
         print(payload)
 
 
-def cmd_runs_delete_from_configs(args: argparse.Namespace) -> None:
+def cmd_runs_delete_from_configs(args: argparse.Namespace) -> None:  # noqa: PLR0912, PLR0915
     """Delete all runs corresponding to config YAML files in the configs directory."""
 
     paths = Paths.default()
@@ -360,7 +362,10 @@ def cmd_runs_delete_from_configs(args: argparse.Namespace) -> None:
             if run_name:
                 run_names_to_delete.add(run_name)
         except Exception as exc:
-            print(f"[mirrorbench] warning: failed to load config '{config_file}': {exc}", file=sys.stderr)
+            print(
+                f"[mirrorbench] warning: failed to load config '{config_file}': {exc}",
+                file=sys.stderr,
+            )
             continue
 
     if not run_names_to_delete:
@@ -399,7 +404,10 @@ def cmd_runs_delete_from_configs(args: argparse.Namespace) -> None:
                     if manifest_run_name == run_name:
                         runs_to_delete.append(run_id)
             except Exception as exc:
-                print(f"[mirrorbench] warning: failed to verify run '{run_id}': {exc}", file=sys.stderr)
+                print(
+                    f"[mirrorbench] warning: failed to verify run '{run_id}': {exc}",
+                    file=sys.stderr,
+                )
                 continue
 
     if not runs_to_delete:
@@ -499,7 +507,12 @@ def _add_runs_subparser(sub: argparse._SubParsersAction[argparse.ArgumentParser]
     runs_delete.add_argument("-f", "--force", action="store_true")
     runs_delete.set_defaults(func=cmd_runs_delete)
     runs_delete_configs = runs_sub.add_parser("delete-from-configs")
-    runs_delete_configs.add_argument("--configs_dir", default="configs", help="Directory containing config YAML files", required=False)
+    runs_delete_configs.add_argument(
+        "--configs_dir",
+        default="configs",
+        help="Directory containing config YAML files",
+        required=False,
+    )
     runs_delete_configs.add_argument("-f", "--force", action="store_true", help="Confirm deletion")
     runs_delete_configs.set_defaults(func=cmd_runs_delete_from_configs)
     runs_inspect = runs_sub.add_parser("inspect")

@@ -8,8 +8,8 @@ import inspect
 import time
 from collections import defaultdict
 from collections.abc import Callable, Iterable
-from dataclasses import dataclass
 from contextlib import AbstractAsyncContextManager
+from dataclasses import dataclass
 from types import TracebackType
 from typing import Any
 
@@ -305,7 +305,9 @@ class _AsyncExecutionContext:
         try:
             dataset_spec = self._resolve_dataset_spec(unit)
             if dataset_spec is None:  # pragma: no cover - defensive
-                raise RuntimeError(f"Plan manifest is missing specifications for unit {unit.unit_id()}")
+                raise RuntimeError(
+                    f"Plan manifest is missing specifications for unit {unit.unit_id()}"
+                )
             for episode_spec in components.dataset.episodes(
                 spec=dataset_spec, split=dataset_spec.split
             ):

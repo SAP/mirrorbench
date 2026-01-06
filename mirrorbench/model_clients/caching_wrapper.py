@@ -162,7 +162,7 @@ class CachingChatClient(ChatClient):
 
     async def _invoke_delegate_async(
         self, *, messages: Sequence[Message], **kwargs: Any
-    ) -> ChatResponse:
+    ) -> ChatResponse | Any:
         async_invoke = getattr(self._delegate, "invoke_async", None)
         if callable(async_invoke):
             response = async_invoke(messages=messages, **kwargs)

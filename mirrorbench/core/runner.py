@@ -9,7 +9,7 @@ from typing import Protocol, cast
 
 import structlog
 
-import mirrorbench.core.executor.async_backend  # noqa: F401 - ensure builtin backends register
+import mirrorbench.core.executor.async_backend  # - ensure builtin backends register
 import mirrorbench.core.executor.sync_backend  # noqa: F401 - ensure builtin backends register
 from mirrorbench.core.config import JobConfig, RunConfig, ScorecardConfig
 from mirrorbench.core.constants import REGISTRY_GROUP_USER_PROXIES, STATUS_COMPLETED

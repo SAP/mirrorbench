@@ -389,7 +389,7 @@ class MirrorConversationDriver(TaskDriver):
             result.message = result_message
         return result
 
-    def _generate_assistant_response(
+    def _generate_assistant_response(  # noqa: PLR0912
         self,
         transcript: list[Message],
         *,
@@ -430,18 +430,22 @@ class MirrorConversationDriver(TaskDriver):
                 if "model_name" in self._assistant_client_params:
                     telemetry.metadata["model_name"] = self._assistant_client_params["model_name"]
                 if "azure_deployment" in self._assistant_client_params:
-                    telemetry.metadata["azure_deployment"] = self._assistant_client_params["azure_deployment"]
+                    telemetry.metadata["azure_deployment"] = self._assistant_client_params[
+                        "azure_deployment"
+                    ]
 
             if self._assistant_request_params:
                 # Store key request parameters
                 if "temperature" in self._assistant_request_params:
-                    telemetry.metadata["temperature"] = self._assistant_request_params["temperature"]
+                    telemetry.metadata["temperature"] = self._assistant_request_params[
+                        "temperature"
+                    ]
                 if "max_tokens" in self._assistant_request_params:
                     telemetry.metadata["max_tokens"] = self._assistant_request_params["max_tokens"]
 
         return message, telemetry
 
-    async def _generate_assistant_response_async(
+    async def _generate_assistant_response_async(  # noqa: PLR0912
         self,
         transcript: list[Message],
         *,
@@ -496,7 +500,9 @@ class MirrorConversationDriver(TaskDriver):
 
             if self._assistant_request_params:
                 if "temperature" in self._assistant_request_params:
-                    telemetry.metadata["temperature"] = self._assistant_request_params["temperature"]
+                    telemetry.metadata["temperature"] = self._assistant_request_params[
+                        "temperature"
+                    ]
                 if "max_tokens" in self._assistant_request_params:
                     telemetry.metadata["max_tokens"] = self._assistant_request_params["max_tokens"]
 

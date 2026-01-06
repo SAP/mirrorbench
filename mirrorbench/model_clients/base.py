@@ -37,9 +37,7 @@ class ChatClient(Protocol):
 
     def invoke(self, *, messages: Sequence[Message], **kwargs: Any) -> ChatResponse: ...
 
-    async def invoke_async(
-        self, *, messages: Sequence[Message], **kwargs: Any
-    ) -> ChatResponse: ...
+    async def invoke_async(self, *, messages: Sequence[Message], **kwargs: Any) -> ChatResponse: ...
 
     def stream(self, *, messages: Sequence[Message], **kwargs: Any) -> Iterator[ChatChunk]: ...
 
@@ -69,9 +67,7 @@ class BaseChatClient(BaseModelClient, ChatClient):
         chunk = ChatChunk(delta=response.message, raw=response.raw, telemetry=telemetry)
         yield chunk
 
-    async def invoke_async(
-        self, *, messages: Sequence[Message], **kwargs: Any
-    ) -> ChatResponse:
+    async def invoke_async(self, *, messages: Sequence[Message], **kwargs: Any) -> ChatResponse:
         return await asyncio.to_thread(self.invoke, messages=messages, **kwargs)
 
     def get_init_params(self) -> Mapping[str, Any]:

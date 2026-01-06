@@ -325,7 +325,16 @@ def write_config(
 
 def run_job(config_path: Path, run_name: str) -> None:
     run_dir = Paths.default().runs_dir() / run_name
-    cmd = [sys.executable, "-m", "mirrorbench.cli", "run", "-c", str(config_path), "--run-id", str(run_name)]
+    cmd = [
+        sys.executable,
+        "-m",
+        "mirrorbench.cli",
+        "run",
+        "-c",
+        str(config_path),
+        "--run-id",
+        str(run_name),
+    ]
     if run_dir.exists():
         cmd.append("--resume")
     result = subprocess.run(cmd, check=False)

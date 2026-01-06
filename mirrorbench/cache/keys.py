@@ -12,7 +12,7 @@ from mirrorbench.core.models.messages import Message
 from mirrorbench.core.models.registry import ModelClientInfo
 
 
-def build_model_client_cache_key(
+def build_model_client_cache_key(  # noqa: PLR0913
     *,
     messages: Sequence[Message],
     request_params: Mapping[str, Any] | None,

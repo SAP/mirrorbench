@@ -148,7 +148,9 @@ class CritiqueThenReviseMetric(JudgeMetricMixin, BaseMetric):
             while critique_text is None and attempts <= self.max_retries:
                 attempts += 1
                 try:
-                    critique_text, critique_telemetry = self._critique(conversation, few_shot_examples)
+                    critique_text, critique_telemetry = self._critique(
+                        conversation, few_shot_examples
+                    )
                 except Exception:  # pragma: no cover - judge failure path
                     if attempts > self.max_retries:
                         raise
@@ -157,7 +159,9 @@ class CritiqueThenReviseMetric(JudgeMetricMixin, BaseMetric):
             if critique_text is None:  # pragma: no cover - judge failure path
                 msg = "Failed to get critique from judge"
                 raise RuntimeError(msg)
-            verdict, verdict_telemetry = self._verdict(conversation, critique_text, few_shot_examples)
+            verdict, verdict_telemetry = self._verdict(
+                conversation, critique_text, few_shot_examples
+            )
             scores.append(verdict.score)
             explanations.append(verdict.explanation)
             critique_output = verdict.critique if verdict.critique is not None else critique_text
@@ -180,7 +184,9 @@ class CritiqueThenReviseMetric(JudgeMetricMixin, BaseMetric):
 
         conversation = self._format_conversation(proxy_conversation)
 
-        scores, explanations, critiques, telemetries = self._run_samples(conversation, few_shot_examples)
+        scores, explanations, critiques, telemetries = self._run_samples(
+            conversation, few_shot_examples
+        )
 
         for score, explanation, critique, telemetry_pair in zip(
             scores, explanations, critiques, telemetries, strict=False
