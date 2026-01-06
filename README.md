@@ -1,3 +1,7 @@
+<p align="center"> 
+    <img src="figures/mirrorbench-logo.png" align="center" height="150"></img>
+</p>
+
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/mirrorbench)](https://api.reuse.software/info/github.com/SAP/mirrorbench)
 
 # mirrorbench
