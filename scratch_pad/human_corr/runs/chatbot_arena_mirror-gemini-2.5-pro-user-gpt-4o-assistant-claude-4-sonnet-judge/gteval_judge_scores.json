@@ -1,0 +1,402 @@
+[
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::475aa75ed5b64f69a86aa96d1a5c3ba2::stablelm-tuned-alpha-7b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::41bc9ddb83d942afb3970a5296f3dc7e::alpaca-13b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::f1270834225944c4951c61494ec334c4::vicuna-7b",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::897c15870c9a47d5996246583199bdb8::chatglm-6b",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::c5a0d5fa9a9a42ee914d2a2b18807587::koala-13b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::9a021e2e3a9d4ec184892ec5ffcd349f::mpt-7b-chat",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::747ffc456c29436e8aaddee341480633::gpt-3.5-turbo",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::0c833595bd374e3dbc3bea3b9effcb3b::koala-13b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::4440a9d46675427397d3e6af4695f8a8::koala-13b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::c1d32d1960084aa59d5853eb73b07eb8::vicuna-7b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::b0c0ba1ff79e4fa9932681547ce715f7::llama-13b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::5d650707ba7d49a98a32e9cb65afc046::vicuna-13b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::c00faf6979434b6d98fb490140a5262c::RWKV-4-Raven-14B",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::807a66e95c924d719d62f1b971c8ea55::koala-13b",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::185185a8e4424ab5b4dde93de451bf8f::alpaca-13b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::1e864a5b153344c18b346a5761cbec30::vicuna-13b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::70055413dccb44778235b283ed883a41::dolly-v2-12b",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::e52231e6efbb410988b5685d32e15629::gpt4all-13b-snoozy",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::70e2997c73a74ebb97fb86ee5a088107::chatglm-6b",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::cf41d018390345a58180ff3b11bfc8a2::dolly-v2-12b",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::f0d7b72e1c00470395b8d7a41e8e9f79::palm-2",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::e667891bd05e48a1a9039f14bd38559a::llama-13b",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::61c75d537c9749008c8dcaecb66cb157::claude-v1",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::711dd8da3968431a91cb4c56f73ea7a2::palm-2",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::a632607132cf4908883fd262102714c9::gpt4all-13b-snoozy",
+    "judge_score": 0.1
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::5f366efff93b4c79ab79f1cd03f23291::vicuna-13b",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::cb34f27fccdd47568babd8606ace158d::gpt-3.5-turbo",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::b6b72d5bae6449728e722dc12ad73837::RWKV-4-Raven-14B",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::4dda5f62c6bd433eba4d5bbe9ed61a31::oasst-pythia-12b",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::18317dde808b4c6f84e58c17cf9c4365::fastchat-t5-3b",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::765325c8ccf440369e233dd3eaa87034::claude-v1",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::188f0735e66a4af5a654ce3c6859f2a9::oasst-pythia-12b",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::ee99ea2b86ce444aa63fcc99deba436f::claude-v1",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::d5d26ea0574b407c9ec73032c1ffe701::chatglm-6b",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::a7bed06b1a5148fd80a4bc284b5cd8f2::mpt-7b-chat",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::0a408d6f98fb48cb9e4bc3df7081a6ca::claude-v1",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::7555a0c03d2342009957c2401656c994::gpt-4",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::8977f80ca2e740f09828d114cc4fab4d::claude-v1",
+    "judge_score": 0.7
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::cc98e41b80d445d7a75e56d8794aabf5::alpaca-13b",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::865c699ad9714adc82cd960e9e6f0d16::wizardlm-13b",
+    "judge_score": 0.95
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::b754a1a0876e4795a1e25ada83ef7219::gpt-3.5-turbo",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::0e8bb46d350f4a05a6264d59d557b5aa::gpt-3.5-turbo",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::b5a263c19ac847d49e1b22312a880ddf::chatglm-6b",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::99a382fde0c4425a84a0c1c28560fd44::gpt-3.5-turbo",
+    "judge_score": 0.95
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::a0b6e8eb65b6484e994bfc290e70f7e4::stablelm-tuned-alpha-7b",
+    "judge_score": 0.7
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::1ad4a5856dbe4316966fb485140d4475::gpt-4",
+    "judge_score": 0.95
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::80e165ba087a4bc7b2fe326290118163::claude-v1",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::a0f62e7ded484dc3b6af75d05786940d::fastchat-t5-3b",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::eb7039897cd741739879da7b9561b2eb::dolly-v2-12b",
+    "judge_score": 0.95
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::720b305e999b4abeb2045aab4e27f2a2::oasst-pythia-12b",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::d24d651ee85d4f90b63637149d4f1958::claude-v1",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::3251e51806bf447aacda6b4a840114df::vicuna-13b",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::ef9cb0882fba41818d457606e43c606d::vicuna-13b",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::943ad848a8b2492eaf254b76e9f4052a::claude-v1",
+    "judge_score": 0.7
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::0625d75387c24ae58cb3d7447d397e62::claude-v1",
+    "judge_score": 0.7
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::d1b8840840dc45868dcf1506dd324935::vicuna-13b",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::b606859755264e0097dc0a0934e2b48b::gpt-3.5-turbo",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::35222d6651ba4cfaa356b1004e140528::gpt-3.5-turbo",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::94f5d5a9def643aa8f9a8e4dab38a7f8::oasst-pythia-12b",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::1fab4842d2244ba8a6d556bd85e8cdee::claude-v1",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::08beaeefd3714f3a9c4eec96bf320e7a::RWKV-4-Raven-14B",
+    "judge_score": 0.1
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::d35bdd99073f4c95aa2596a31c4b60d6::oasst-pythia-12b",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::1e340fc0a7104304b810b6ad2236b7f1::vicuna-7b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::22f7396a98e6438ab4b047bdeda484a4::koala-13b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::9ee3ff049a0948c2a4cb19debf3dd31a::gpt-4",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::29ea806e1c684c9199ebe09442b2a057::claude-instant-v1",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::2a4e404abae94a198e19adbb592c44b0::mpt-7b-chat",
+    "judge_score": 0.85
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::7cad6e097b5a4e8ca3c7258890031544::gpt-4",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::9991b5b6fb774e5eaa085d9be673b44a::vicuna-13b",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::507c4c66e08d4eca870d144c8295fb91::stablelm-tuned-alpha-7b",
+    "judge_score": 0.7
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::3865cb450c61416db7ba1ff7d2274850::vicuna-13b",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::6287bd28dcbd40f6af5692e474ca7d45::vicuna-13b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::a04de1d99ead420da93126e17e33f48e::RWKV-4-Raven-14B",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::cf42f5b008d0434db75161eb58887b7e::chatglm-6b",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::7486670e6b154388a38aed5b08a12a54::mpt-7b-chat",
+    "judge_score": 0.7
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::6ade8691053d4eb0bff3b9bae38ec066::koala-13b",
+    "judge_score": 1.0
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::703d31c956414dbe90ddd1ff34baba36::RWKV-4-Raven-14B",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::2bb10ff53cb741c99d77c406ea32ec99::alpaca-13b",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::3d4a9aa699b84ddc9b45969d4012a204::chatglm-6b",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::11bcdecbf3a24ab7aa28dec91361ac6e::alpaca-13b",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::71d6bbbd62514246aea7cb2d1f5ac53f::oasst-pythia-12b",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::4d0b16e31c0d4103a50b538a9fc07c2f::fastchat-t5-3b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::197defa22feb4f35a833ee8a91b248df::mpt-7b-chat",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::6a017e825e424f0996dacd98f602fb02::palm-2",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::702a9c85c7d5482d8a6ebf50d623f2be::vicuna-13b",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::83a15266ee054bec9fd0b83c95f0f4d5::claude-instant-v1",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::2a3a4d362b5b406286d72d50336ea1ee::llama-13b",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::339842fe478847b18b00a9f1f3274b90::chatglm-6b",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::21ce5acea9644088b77e94829dd272d7::claude-instant-v1",
+    "judge_score": 0.7
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::8c631494adc84318bfa2d6419805dca6::oasst-pythia-12b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::8296d5a842ff4810a76b677e74554f88::gpt-4",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::bf3db03800fe4ed6bfe50e83e4ac4740::vicuna-13b",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::b4ab0710202742a7b5af00b5c620a4be::gpt-3.5-turbo",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::79898194b1844cf895404529c8445e59::claude-v1",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::85e3568911b240bf89ea7a17eb123a33::fastchat-t5-3b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::b6011223d3b647d7abeca05d2eca342b::gpt-3.5-turbo",
+    "judge_score": 0.85
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::e803281219434ae4b01814392964cf3b::alpaca-13b",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::452e9ab551844f5b94bd0002df85488c::gpt4all-13b-snoozy",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::4d5aade1d1224ccfa8fff61ab470b841::mpt-7b-chat",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gemini-2.5-pro|dataset:jsonl/chatbot_arena_mirror|metric:judge/gteval|0::9e8a4aa264604e9786df60cf87a4fc82::koala-13b",
+    "judge_score": 0.8
+  }
+]

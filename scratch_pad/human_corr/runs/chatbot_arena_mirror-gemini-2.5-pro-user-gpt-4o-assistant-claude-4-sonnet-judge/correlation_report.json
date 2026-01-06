@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "metric_name": "metric:judge/gteval",
+      "num_samples": 100,
+      "human_mean": 0.5345,
+      "human_std": 0.3085232830138046,
+      "judge_mean": 0.578,
+      "judge_std": 0.28983799027398155,
+      "spearman_rho": 0.6969429335308475,
+      "spearman_pvalue": 8.052450588839209e-16,
+      "spearman_ci_lower": 0.5545004725404052,
+      "spearman_ci_upper": 0.8132181935091424,
+      "pearson_r": 0.6818103469297745,
+      "pearson_pvalue": 5.772714921360484e-15,
+      "kendall_tau": 0.616588326563366,
+      "kendall_pvalue": 2.350321451829949e-14
+    },
+    {
+      "metric_name": "metric:judge/pi_pairwise",
+      "num_samples": 100,
+      "human_mean": 0.515,
+      "human_std": 0.3856975839470948,
+      "judge_mean": 0.6283333333333333,
+      "judge_std": 0.35992813224530495,
+      "spearman_rho": 0.6078102069476768,
+      "spearman_pvalue": 2.000539886083077e-11,
+      "spearman_ci_lower": 0.45448213197325965,
+      "spearman_ci_upper": 0.737809347093249,
+      "pearson_r": 0.5802129299805713,
+      "pearson_pvalue": 2.505766279538814e-10,
+      "kendall_tau": 0.5410027909569126,
+      "kendall_pvalue": 4.5117930350693754e-10
+    }
+  ]
+}
