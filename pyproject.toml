@@ -1,0 +1,117 @@
+[project]
+name = "mirrorbench"
+version = "0.0.1"
+description = "An automatic & extensible Framework to Evaluate User-Proxy Agents for Human-Likeness."
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "Apache-2.0"}
+authors = [
+  { name="Ashutosh Hathidara", email="ashutosh.hathidara@sap.com" },
+  { name="Sebastian Schreiber", email="sebastian.schreiber@sap.com" }
+]
+dependencies = [
+  "pyyaml>=6.0",
+  "platformdirs>=4.0",
+  "pydantic>=2.5",
+  "structlog>=24.1",
+  "python-dotenv>=1.0",
+  "openai>=1.40",
+  "langchain-openai>=0.1.0",
+  "datasets>=4.1.1",
+  "nltk>=3.9.2",
+  "tiktoken>=0.7.0",
+  "tenacity>=8.2.3",
+]
+
+[project.optional-dependencies]
+dev = [
+  "black>=24.3",
+  "ruff>=0.1.9",
+  "mypy>=1.7",
+  "pytest>=7.4",
+  "pytest-cov>=4.1",
+  "pre-commit>=3.6",
+  "nox>=2023.11",
+  "opentelemetry-api>=1.37.0",
+  "opentelemetry-sdk>=1.37.0",
+  "opentelemetry-exporter-otlp>=1.37.0",
+  "matplotlib>=3.10.7",
+  "seaborn>=0.13.2",
+  "ipykernel>=7.0.1",
+]
+
+[project.scripts]
+mirrorbench = "mirrorbench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.black]
+line-length = 100
+target-version = ["py312"]
+
+[tool.ruff]
+line-length = 100
+src = ["mirrorbench", "tests"]
+target-version = "py312"
+extend-exclude = ["scratch_pad"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I", "UP", "N", "SIM", "PL", "RUF"]
+ignore = ["E203", "E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["mirrorbench"]
+combine-as-imports = true
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_unused_configs = true
+plugins = []
+namespace_packages = true
+files = ["mirrorbench"]
+
+[[tool.mypy.overrides]]
+module = [
+  "platformdirs",
+  "yaml",
+  "structlog",
+  "openai",
+  "langchain",
+  "langchain_core",
+  "langchain_core.*",
+  "dotenv",
+  "tenacity",
+  "tenacity.*",
+]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra --strict-markers --disable-warnings"
+testpaths = ["tests"]
+markers = [
+  "integration: marks integration tests",
+  "real_openai: executes tests against the real OpenAI service",
+  "real_azure_langchain: executes tests against Azure OpenAI via LangChain",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["mirrorbench"]
+omit = [
+  "mirrorbench/__init__.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+  "if __name__ == \"__main__\":",
+  "pragma: no cover",
+  "raise NotImplementedError",
+]
+precision = 2
+
+[build-system]
+requires = ["hatchling>=1.22"]
+build-backend = "hatchling.build"
