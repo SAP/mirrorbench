@@ -184,6 +184,7 @@ Copyright 2025 SAP SE or an SAP affiliate company and mirrorbench contributors. 
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://ashutoshhathidara.com"><img src="https://avatars.githubusercontent.com/u/20843596?v=4?s=100" width="100px;" alt="Ashutosh Hathidara"/><br /><sub><b>Ashutosh Hathidara</b></sub></a><br /><a href="#research-ashutosh1919" title="Research">🔬</a> <a href="#code-ashutosh1919" title="Code">💻</a> <a href="#design-ashutosh1919" title="Design">🎨</a> <a href="#ideas-ashutosh1919" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-ashutosh1919" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sebastian-schreiber-sap"><img src="https://avatars.githubusercontent.com/u/153761180?v=4?s=100" width="100px;" alt="sebastian-schreiber-sap"/><br /><sub><b>sebastian-schreiber-sap</b></sub></a><br /><a href="#ideas-sebastian-schreiber-sap" title="Ideas, Planning, & Feedback">🤔</a> <a href="#mentoring-sebastian-schreiber-sap" title="Mentoring">🧑‍🏫</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/vaishaalli224"><img src="https://avatars.githubusercontent.com/u/219760723?v=4?s=100" width="100px;" alt="Vaishali Senthil"/><br /><sub><b>Vaishali Senthil</b></sub></a><br /><a href="#ideas-vaishaalli224" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
 </table>
