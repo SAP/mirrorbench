@@ -1,0 +1,12 @@
+{
+    "terminal.integrated.env.linux": {
+        "CONDA_AUTO_ACTIVATE_BASE": "false"
+    },
+    "terminal.integrated.env.osx": {
+        "CONDA_AUTO_ACTIVATE_BASE": "false"
+    },
+    "terminal.integrated.env.windows": {
+        "CONDA_AUTO_ACTIVATE_BASE": "false"
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh"
+}

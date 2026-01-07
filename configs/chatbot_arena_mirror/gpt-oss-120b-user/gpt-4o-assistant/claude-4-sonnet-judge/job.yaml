@@ -1,0 +1,106 @@
+run:
+  name: chatbot_arena_mirror-gpt-oss-120b-user-gpt-4o-assistant-claude-4-sonnet-judge
+  seeds:
+  - 0
+  engine: sync
+  max_concurrency: 1
+  timeout_seconds: 600
+  cache:
+    enabled: true
+  observability:
+    log_json: false
+    log_level: INFO
+user_proxies:
+- name: proxy:langchain/gpt-oss-120b
+  adapter: adapter:generic/llm
+  params:
+    model_client: client:langchain/chat
+    client_params:
+      model_import: cached_scripts.ChatOpenSource
+      model_kwargs:
+        model: gpt-oss-120b
+        deployment_url: http://0.0.0.0:8002/v1
+        temperature: 0
+    request_params: {}
+datasets:
+- name: dataset:jsonl/chatbot_arena_mirror
+  split: default
+  label: Chatbot Arena Mirror
+  params:
+    path: scratch_pad/data/chatbot_arena/chatbot_arena_mirror.jsonl
+    max_examples: 200
+metrics:
+- name: metric:lexical/mattr
+  label: MATTR (window=50)
+  params:
+    tokenizer_model: gpt-4o
+    target_role: user
+    window: 50
+    min_tokens: 5
+- name: metric:lexical/hdd
+  label: HD-D
+  params:
+    tokenizer_model: gpt-4o
+    target_role: user
+    sample_size: 42
+    min_tokens: 5
+- name: metric:lexical/yules_k
+  label: Yule's K
+  params:
+    tokenizer_model: gpt-4o
+    target_role: user
+- name: metric:judge/gteval
+  label: GTEval Realism
+  params:
+    judge_client_name: client:langchain/chat
+    judge_params:
+      model_import: cached_scripts.ChatBedrockConverse
+      model_kwargs:
+        model: anthropic--claude-4-sonnet
+        temperature: 0
+    num_judge_samples: 1
+    compute_controls: true
+- name: metric:judge/pi_pairwise
+  label: Pairwise Indistinguishability
+  params:
+    judge_client_name: client:langchain/chat
+    judge_params:
+      model_import: cached_scripts.ChatBedrockConverse
+      model_kwargs:
+        model: anthropic--claude-4-sonnet
+        temperature: 0
+    num_judge_samples: 3
+    compute_controls: true
+- name: metric:judge/rubric_and_reason
+  label: Rubric & Reason
+  params:
+    judge_client_name: client:langchain/chat
+    judge_params:
+      model_import: cached_scripts.ChatBedrockConverse
+      model_kwargs:
+        model: anthropic--claude-4-sonnet
+        temperature: 0
+    num_judge_samples: 2
+    compute_controls: true
+scorecards:
+- name: human_likeness
+  weights:
+    metric:judge/gteval: 1.0
+    metric:judge/pi_pairwise: 1.0
+    metric:judge/rubric_and_reason: 1.0
+- name: lexical_quality
+  weights:
+    metric:lexical/mattr: 1.0
+    metric:lexical/hdd: 1.0
+    metric:lexical/yules_k: 1.0
+task_drivers:
+  dataset:jsonl/chatbot_arena_mirror:
+    driver: task:mirror/conversation
+    params:
+      assistant_model_client: client:langchain/chat
+      client_params:
+        model_import: cached_scripts.ChatOpenAI
+        model_kwargs:
+          model: gpt-4o
+          temperature: 0.2
+      request_params: {}
