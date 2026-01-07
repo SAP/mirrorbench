@@ -2,12 +2,13 @@
     <img src="figures/mirrorbench-logo.png" align="center" height="150" alt="MirrorBench"></img>
 </p>
 
-<h1 align="center">Evaluating Realism of User-Proxy Agents</h1>
+<h2 align="center">Evaluating Realism of User-Proxy Agents</h2>
 
 <div align="center">
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/mirrorbench)](https://api.reuse.software/info/github.com/SAP/mirrorbench)
 [![License](https://img.shields.io/badge/license-Apache%202.0-orange?logoColor=white)](./LICENSE)
+[![All Contributors](https://img.shields.io/github/all-contributors/SAP/mirrorbench?color=ee8449&style=flat-square)](#contributors)
 <!-- [![Python version](https://img.shields.io/pypi/v/mirrorbench?color=5B5BD6)](https://pypi.org/project/mirrorbench/) -->
 </div>
 
@@ -172,3 +173,14 @@ We as members, contributors, and leaders pledge to make participation in our com
 ## Licensing
 
 Copyright 2025 SAP SE or an SAP affiliate company and mirrorbench contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/mirrorbench).
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
