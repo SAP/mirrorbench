@@ -8,7 +8,7 @@
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/mirrorbench)](https://api.reuse.software/info/github.com/SAP/mirrorbench)
 [![License](https://img.shields.io/badge/license-Apache%202.0-orange?logoColor=white)](./LICENSE)
-[![All Contributors](https://img.shields.io/github/all-contributors/SAP/mirrorbench?color=ee8449&style=flat-square)](#contributors)
+<!-- [![All Contributors](https://img.shields.io/github/all-contributors/SAP/mirrorbench?color=ee8449&style=flat-square)](#contributors) -->
 <!-- [![Python version](https://img.shields.io/pypi/v/mirrorbench?color=5B5BD6)](https://pypi.org/project/mirrorbench/) -->
 </div>
 
