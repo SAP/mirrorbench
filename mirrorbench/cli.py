@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
 import shutil
 import signal
@@ -10,6 +11,9 @@ import sqlite3
 import sys
 from pathlib import Path
 from typing import Any
+
+from rich.console import Console
+from rich.table import Table
 
 import mirrorbench  # noqa: F401 - trigger registry imports
 from mirrorbench.cache import get_cache_manager
@@ -115,7 +119,11 @@ def cmd_dryrun(args: argparse.Namespace) -> None:
 def cmd_run(args: argparse.Namespace) -> None:  # noqa: PLR0915
     job_cfg = _load_config(args.config)
     paths = Paths.default()
-    run_id = _resolve_run_id(paths, args.run_id, args.resume)
+    run_id = _resolve_run_id(
+        paths,
+        args.run_id or job_cfg.run.name,
+        args.resume
+    )
 
     obs = job_cfg.run.observability.model_copy()
     if getattr(args, "log_level", None):
@@ -214,10 +222,6 @@ def cmd_report_json(args: argparse.Namespace) -> None:
         print(f"[mirrorbench] JSON report written to {output_path}")
     else:
         print(json.dumps(report, indent=2))
-
-
-def cmd_compare_dsets(args: argparse.Namespace) -> None:
-    _not_implemented("compare-datasets")
 
 
 def cmd_cache_stats(args: argparse.Namespace) -> None:
@@ -439,6 +443,49 @@ def cmd_runs_delete_from_configs(args: argparse.Namespace) -> None:  # noqa: PLR
     print(f"[mirrorbench] successfully deleted {deleted_count} run(s).")
 
 
+def cmd_runs_list(args: argparse.Namespace) -> None:
+    paths = Paths.default()
+    runs_dir = paths.runs_dir()
+
+    if not runs_dir.exists():
+        print("[mirrorbench] no runs found.")
+        return
+
+    runs: list[dict[str, Any]] = []
+    for item in runs_dir.iterdir():
+        if item.is_dir() and not item.name.startswith("."):
+            ts = item.stat().st_ctime
+            created = datetime.datetime.fromtimestamp(ts).strftime("%Y-%m-%d %H:%M:%S")
+            runs.append(
+                {"name": item.name, "path": str(item.resolve()), "created": created, "ts": ts}
+            )
+
+    if not runs:
+        print("[mirrorbench] no runs found.")
+        return
+
+    runs.sort(key=lambda x: x["ts"], reverse=True)
+
+    try:
+        console = Console()
+        table = Table(header_style="bold magenta")
+        table.add_column("Name", style="cyan")
+        table.add_column("Created At", style="green")
+        table.add_column("Path", style="dim")
+
+        for run in runs:
+            table.add_row(run["name"], run["created"], run["path"])
+
+        console.print(table)
+
+    except ImportError:
+        # Fallback if rich is not installed
+        print(f"{'Name':<40} {'Created At':<25} {'Path'}")
+        print("-" * 100)
+        for run in runs:
+            print(f"{run['name']:<40} {run['created']:<25} {run['path']}")
+
+
 def _add_plan_subparser(sub: argparse._SubParsersAction[argparse.ArgumentParser]) -> None:
     plan_parser = sub.add_parser("plan")
     plan_parser.add_argument("-c", "--config", required=True)
@@ -457,7 +504,7 @@ def _add_dryrun_subparser(sub: argparse._SubParsersAction[argparse.ArgumentParse
 def _add_run_subparser(sub: argparse._SubParsersAction[argparse.ArgumentParser]) -> None:
     run_parser = sub.add_parser("run")
     run_parser.add_argument("-c", "--config", required=True)
-    run_parser.add_argument("--run-id")
+    run_parser.add_argument("--run-id", default=None)
     run_parser.add_argument("--backend")
     run_parser.add_argument("--resume", action="store_true")
     run_parser.add_argument("--no-progress", action="store_true")
@@ -479,13 +526,6 @@ def _add_report_subparser(sub: argparse._SubParsersAction[argparse.ArgumentParse
     report_json.add_argument("run_id")
     report_json.add_argument("--output")
     report_json.set_defaults(func=cmd_report_json)
-
-
-def _add_compare_subparser(sub: argparse._SubParsersAction[argparse.ArgumentParser]) -> None:
-    compare_parser = sub.add_parser("compare-datasets")
-    compare_parser.add_argument("--a", required=True)
-    compare_parser.add_argument("--b", required=True)
-    compare_parser.set_defaults(func=cmd_compare_dsets)
 
 
 def _add_cache_subparser(sub: argparse._SubParsersAction[argparse.ArgumentParser]) -> None:
@@ -522,6 +562,8 @@ def _add_runs_subparser(sub: argparse._SubParsersAction[argparse.ArgumentParser]
     runs_inspect.add_argument("--index", type=int, default=0)
     runs_inspect.add_argument("--output")
     runs_inspect.set_defaults(func=cmd_runs_inspect)
+    runs_list = runs_sub.add_parser("list")
+    runs_list.set_defaults(func=cmd_runs_list)
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -531,7 +573,6 @@ def _build_parser() -> argparse.ArgumentParser:
     _add_dryrun_subparser(sub)
     _add_run_subparser(sub)
     _add_report_subparser(sub)
-    _add_compare_subparser(sub)
     _add_cache_subparser(sub)
     _add_runs_subparser(sub)
 

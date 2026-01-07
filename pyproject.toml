@@ -21,6 +21,7 @@ dependencies = [
   "nltk>=3.9.2",
   "tiktoken>=0.7.0",
   "tenacity>=8.2.3",
+  "rich>=14.2.0",
 ]
 
 [project.optional-dependencies]
@@ -84,6 +85,7 @@ module = [
   "dotenv",
   "tenacity",
   "tenacity.*",
+  "rich.*"
 ]
 ignore_missing_imports = true
 
