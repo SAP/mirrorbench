@@ -27,6 +27,35 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/153761180?v=4",
       "profile": "https://github.com/sebastian-schreiber-sap",
       "contributions": [
+        "ideas",
+        "mentoring"
+      ]
+    },
+    {
+      "login": "vaishaalli224",
+      "name": "Vaishali Senthil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/219760723?v=4",
+      "profile": "https://github.com/vaishaalli224",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "aanilbabu",
+      "name": "aanilbabu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6667247?v=4",
+      "profile": "https://github.com/aanilbabu",
+      "contributions": [
+        "ideas",
+        "mentoring"
+      ]
+    },
+    {
+      "login": "yyu56253",
+      "name": "Yue (Julien) Yu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76017044?v=4",
+      "profile": "https://github.com/yyu56253",
+      "contributions": [
         "ideas"
       ]
     }
