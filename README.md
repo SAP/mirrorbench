@@ -14,6 +14,8 @@
 
 MirrorBench is an automatic, extensible Framework to Evaluate User-Proxy Agents for Human-Likeness. It provides a modular architecture to benchmark different User-Proxy Agents against a variety of realism metrics. MirrorBench is designed to be extensible, allowing researchers and developers to bring their own agents and metrics into the framework.
 
+⭐ Drop a star to help us grow!
+
 ## Requirements and Setup
 
 The project requires Python 3.12 or higher. It is recommended to use a virtual environment to manage dependencies. You can install the project as a dependency using pip:
