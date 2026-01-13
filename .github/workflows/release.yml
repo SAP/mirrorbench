@@ -37,6 +37,7 @@ jobs:
       - name: Build release distributions
         run: |
           # NOTE: put your own distribution build steps here.
+          uv venv
           uv pip install -e .[dev]
           uv build
 
