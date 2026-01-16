@@ -176,6 +176,22 @@ We as members, contributors, and leaders pledge to make participation in our com
 
 Copyright 2025 SAP SE or an SAP affiliate company and mirrorbench contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/mirrorbench).
 
+## Citation
+
+If you like our work and find MirrorBench useful in your research, please consider citing the following paper:
+
+```
+@misc{hathidara2026mirrorbenchextensibleframeworkevaluate,
+      title={MirrorBench: An Extensible Framework to Evaluate User-Proxy Agents for Human-Likeness}, 
+      author={Ashutosh Hathidara and Julien Yu and Vaishali Senthil and Sebastian Schreiber and Anil Babu Ankisettipalli},
+      year={2026},
+      eprint={2601.08118},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2601.08118}, 
+}
+```
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
