@@ -6,9 +6,11 @@
 
 <div align="center">
 
+[![ArXiv](https://img.shields.io/badge/arxiv-2601.08118-8A2BE2?logoColor=white)](https://arxiv.org/abs/2601.08118)
+[![GitHub](https://img.shields.io/badge/github-mirrorbench-ff69b4?logoColor=white)](https://github.com/SAP/mirrorbench)
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/mirrorbench)](https://api.reuse.software/info/github.com/SAP/mirrorbench)
 [![License](https://img.shields.io/badge/license-Apache%202.0-orange?logoColor=white)](./LICENSE)
-<!-- [![All Contributors](https://img.shields.io/github/all-contributors/SAP/mirrorbench?color=ee8449&style=flat-square)](#contributors) -->
+[![All Contributors](https://img.shields.io/github/all-contributors/SAP/mirrorbench?color=ff69b4)](#contributors)
 <!-- [![Python version](https://img.shields.io/pypi/v/mirrorbench?color=5B5BD6)](https://pypi.org/project/mirrorbench/) -->
 </div>
 
