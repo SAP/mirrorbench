@@ -119,11 +119,7 @@ def cmd_dryrun(args: argparse.Namespace) -> None:
 def cmd_run(args: argparse.Namespace) -> None:  # noqa: PLR0915
     job_cfg = _load_config(args.config)
     paths = Paths.default()
-    run_id = _resolve_run_id(
-        paths,
-        args.run_id or job_cfg.run.name,
-        args.resume
-    )
+    run_id = _resolve_run_id(paths, args.run_id or job_cfg.run.name, args.resume)
 
     obs = job_cfg.run.observability.model_copy()
     if getattr(args, "log_level", None):
