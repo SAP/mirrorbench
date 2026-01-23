@@ -23,7 +23,7 @@ MirrorBench is an automatic, extensible Framework to Evaluate User-Proxy Agents 
 The project requires Python 3.12 or higher. It is recommended to use a virtual environment to manage dependencies. You can install the project as a dependency using pip:
 
 ```bash
-pip install https://github.com/SAP/mirrorbench.git
+pip install mirrorbench
 ```
 
 Alternatively, you can install it in editable/development mode by cloning the repository and installing it locally:
