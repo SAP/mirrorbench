@@ -14,6 +14,10 @@
 <!-- [![Python version](https://img.shields.io/pypi/v/mirrorbench?color=5B5BD6)](https://pypi.org/project/mirrorbench/) -->
 </div>
 
+<div align="center" style="margin-bottom: 20px;">
+  <img src="./figures/mirrorbench_benchmark_pipeline.png" align="center" style="max-height: 500px; overflow: auto;" alt="MirrorBench Architecture"></img>
+</div>
+
 MirrorBench is an automatic, extensible Framework to Evaluate User-Proxy Agents for Human-Likeness. It provides a modular architecture to benchmark different User-Proxy Agents against a variety of realism metrics. MirrorBench is designed to be extensible, allowing researchers and developers to bring their own agents and metrics into the framework.
 
 ⭐ Drop a star to help us grow!
