@@ -182,6 +182,14 @@ ASSISTANTS = [
         "label": "gpt-4o-assistant",
         "model": {"base": "gpt-4o"},
     },
+    {
+        "label": "claude-4-sonnet-assistant",
+        "model": {"base": "claude-4-sonnet"},
+    },
+    {
+        "label": "gemini-2.5-pro-assistant",
+        "model": {"base": "gemini-2.5-pro"},
+    },
 ]
 
 
@@ -192,32 +200,32 @@ ASSISTANTS = [
 # - metric_overrides: dict - Optional per-metric overrides, e.g. {"pi": {"num_judge_samples": 5}}
 # - metric_models: dict - Optional alternate model per metric key, e.g. {"gteval": "gpt-4o"}
 JUDGES = [
-    {
-        "label": "gpt-4o-judge",
-        "model": "gpt-4o",
-        # Optional per-metric overrides e.g. {"pi": {"num_judge_samples": 5}}
-        "metric_overrides": {},
-        # Optional: provide alternate model per metric key
-        "metric_models": {},
-    },
-    {
-        "label": "gpt-5-judge",
-        "model": "gpt-5",
-        "metric_overrides": {},
-        "metric_models": {},
-    },
+    # {
+    #     "label": "gpt-4o-judge",
+    #     "model": "gpt-4o",
+    #     # Optional per-metric overrides e.g. {"pi": {"num_judge_samples": 5}}
+    #     "metric_overrides": {},
+    #     # Optional: provide alternate model per metric key
+    #     "metric_models": {},
+    # },
+    # {
+    #     "label": "gpt-5-judge",
+    #     "model": "gpt-5",
+    #     "metric_overrides": {},
+    #     "metric_models": {},
+    # },
     {
         "label": "claude-4-sonnet-judge",
         "model": "claude-4-sonnet",
         "metric_overrides": {},
         "metric_models": {},
     },
-    {
-        "label": "gemini-2.5-pro-judge",
-        "model": "gemini-2.5-pro",
-        "metric_overrides": {},
-        "metric_models": {},
-    },
+    # {
+    #     "label": "gemini-2.5-pro-judge",
+    #     "model": "gemini-2.5-pro",
+    #     "metric_overrides": {},
+    #     "metric_models": {},
+    # },
 ]
 
 
