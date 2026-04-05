@@ -1,0 +1,252 @@
+[
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-477",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-173",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-206",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-281",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-421",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-474",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-62",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-215",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-451",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-329",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-391",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-7",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-174",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-146",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-77",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-149",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-64",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-52",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-153",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-376",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-293",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-428",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-33",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-259",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-471",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-440",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-162",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-25",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-196",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-480",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-400",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-10",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-348",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-56",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-124",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-70",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-179",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-112",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-130",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-286",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-20",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-360",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-313",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-242",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-103",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-459",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-74",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-413",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-29",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/pi_pairwise|0::clariq-384",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  }
+]

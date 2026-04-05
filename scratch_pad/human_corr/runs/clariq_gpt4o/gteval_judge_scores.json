@@ -1,0 +1,202 @@
+[
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-35",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-105",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-70",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-145",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-413",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-335",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-243",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-297",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-468",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-120",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-391",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-376",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-337",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-25",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-198",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-60",
+    "judge_score": 0.1
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-329",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-75",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-487",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-174",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-491",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-62",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-93",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-363",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-247",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-39",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-367",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-480",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-146",
+    "judge_score": 0.7
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-406",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-28",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-24",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-206",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-316",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-328",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-315",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-409",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-312",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-469",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-293",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-431",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-107",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-295",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-179",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-289",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-318",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-17",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-110",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-299",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/clariq_mirror|default|metric:judge/gteval|0::clariq-122",
+    "judge_score": 0.2
+  }
+]

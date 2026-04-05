@@ -1,0 +1,252 @@
+[
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::92ea14e1-d832-4345-adbc-375bebb498e2",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::edd4a416-3cd7-4fa2-ab3b-3a2af526a4e9",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::db160030-fbb6-4a00-81c2-c68854d8ccbd",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::c27ee63d-6f4b-4073-901a-5e0b25ab9feb",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::c682e5bc-9659-47b6-a2c4-21510480d382",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::06523b2e-7bd4-4725-befe-e61816269139",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::ba5a201c-0002-4929-b150-17287bfee059",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::14974068-54e9-4883-9982-ba347c038bc0",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::c4cfcc44-8e4e-4d83-9ffe-58b3f19543a7",
+    "judge_score": 0.16666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::0a85898a-804e-4514-a273-feef516507e5",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::541b645a-0c9c-4387-bd5e-8105d2a4e4d0",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::fa745d5c-218e-4af5-93a9-63d79d0ad4e4",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::c522beae-5a33-48c1-aee3-19f32fc3f0af",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::d8a5e3a4-2cd2-4926-bfb8-5fa4e06f4827",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::9ef870b4-0c21-45b5-8d04-4fac9d43dc5c",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::d66d2d04-9d4a-4d2e-81b0-8cb1720b194c",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::1b3e3328-ab46-40fb-89bb-dd636f08eaa9",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::434e5ce2-1962-4068-b10f-d1cbc88051c1",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::f6a24f45-d41c-4f35-a763-4f86e52f83db",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::f4b6ae8c-7a8e-489b-ba9f-025333cda659",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::85c53567-c91c-418b-bd58-0b8528915906",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::ee1af984-03ce-4488-98ba-8a728c01daa0",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::881b0a1d-a5b8-43f6-8642-c09e1762f089",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::9bf0a688-0908-48f3-b695-6e788386af19",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::ca28945e-f0ef-4f86-ad07-d25f536c6ad0",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::aa92f802-7be2-493e-a848-872f36ff6536",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::10afc04d-cf33-41f8-ab17-ad37f65b84ef",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::aec6bcbe-9340-49f6-9b0b-40c1120092ee",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::96b6cb99-3bae-464b-b855-2cd596c31ad7",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::7fe49d03-6827-44f2-aded-97a57ce2e42a",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::bd5e9809-afc7-402a-bd4f-b8afc9914e4a",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::2ad52488-c57e-4a79-8d08-7594e20793aa",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::8ccdec89-f767-4cd7-b9d1-f78a5ae17928",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::77761bb8-3f9b-402d-a30e-258571027bc5",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::b9f20b41-4756-462f-9ec0-21b1dcaba00d",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::c7d432cc-54b5-4c98-98ce-13c8883770e1",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::e9efb972-b880-458f-bf94-9925c3688e5a",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::fe85075b-e489-4a59-8f94-eb695ed9ccc9",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::d0f26041-86a9-417b-9c24-74a4b2707637",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::89b9dc1d-0281-4e07-a2a9-c486aac950c7",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::2ecacd7d-b125-4a07-bbb5-c81b42a4060a",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::e26f1b83-3400-40db-9e28-003b00d07f5c",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::e64144ff-77b3-4b19-9b83-d622a1fe1bc8",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::227890b8-9c74-4e05-b9fb-8caee5376f11",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::c2883e98-4763-4dce-b912-538778b9f45a",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::5b879431-6c65-45f5-b9cc-5d3bed088ef5",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::a78be306-a079-4dce-bc7a-f9b331d585e2",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::a9982a88-3eaf-46c1-8450-36f954727b10",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::cab068d3-b04f-4e3c-8e9d-794cf38cf953",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::a58393cd-a56a-4e59-83a0-dddca8c4af78",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "B"
+  }
+]

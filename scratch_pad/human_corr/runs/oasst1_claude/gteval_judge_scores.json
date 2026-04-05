@@ -1,0 +1,202 @@
+[
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::b9f20b41-4756-462f-9ec0-21b1dcaba00d",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::304afffa-279b-4955-8346-7adaad3cabb2",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::65aab4db-9cd7-4814-842a-5ede4f798861",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::c7d432cc-54b5-4c98-98ce-13c8883770e1",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::5ca6d7ec-f94a-4857-a1c8-e533d8040ee5",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::81d1e552-c9fb-4a9f-81b2-fd39f21a2eee",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::1979f36a-28ec-4005-9b3b-bf66b80074f4",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::0a85898a-804e-4514-a273-feef516507e5",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::ca28945e-f0ef-4f86-ad07-d25f536c6ad0",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::84ba5c11-3050-46f1-9ca4-0505b69649f4",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::3b468430-def9-4302-957a-c677ef7c104d",
+    "judge_score": 0.1
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::e64144ff-77b3-4b19-9b83-d622a1fe1bc8",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::bcd5e367-892b-413c-8658-362cbadcc033",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::901c168a-9797-46b0-9fcf-7349ad31c1f0",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::85b56743-d3c5-4fe6-ad5d-7209fe013c04",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::81f9ce04-9335-47fc-92cd-f7c29c4affc9",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::d8a5e3a4-2cd2-4926-bfb8-5fa4e06f4827",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::decbd988-0b47-4070-ab40-f4f88bdfc0a6",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::85c53567-c91c-418b-bd58-0b8528915906",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::c27ee63d-6f4b-4073-901a-5e0b25ab9feb",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::39a7c6e5-70f4-487f-a9fb-11b47f7f5157",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::ee1af984-03ce-4488-98ba-8a728c01daa0",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::81511924-f309-4292-8fcb-2909ffcc6f99",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::93177d69-becc-4a4e-b5ab-81b5a3eac9c5",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::7adaed70-9a34-4e25-a026-836d2e1a8ace",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::1657e69e-e2e1-4243-af76-2c065be50a04",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::fed6c43f-6c54-4abb-8275-35567690e267",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::7f385c8b-12f8-41c8-a012-fe455af0e5c3",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::001199c7-7135-4e64-bee9-48ea862243b4",
+    "judge_score": 0.7
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::2b1d040e-3cb8-49d8-92ca-be36ddf6499e",
+    "judge_score": 0.7
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::2f5d7755-ff4a-4c59-ac49-acc54eacf277",
+    "judge_score": 0.7
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::e9efb972-b880-458f-bf94-9925c3688e5a",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::aa92f802-7be2-493e-a848-872f36ff6536",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::828b13b8-72de-4038-acda-e77770cbb355",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::ca4d0c93-220b-4861-87c1-bdb44cd13f72",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::d20e08a4-d740-4063-8448-81dc39aac378",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::d67de972-f308-4cdf-b51a-f95c0bd36c5f",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::3178dcf2-742a-4a90-bcce-a736a3383f17",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::c522beae-5a33-48c1-aee3-19f32fc3f0af",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::2f0e694c-8e60-42d0-888d-66eb26c6fd4c",
+    "judge_score": 0.85
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::50ea6cdf-9531-41c5-8f42-c42e60193104",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::ef32b7dd-b3a6-401f-bb22-89d00ebe8359",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::4c031d45-0ff0-4174-a083-6d0b7db695d8",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::24f4ea8e-3cef-4ffb-80b8-4fa56a3d755e",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::45ce5948-a53b-4249-9fdf-695302c2851b",
+    "judge_score": 0.7
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::c2883e98-4763-4dce-b912-538778b9f45a",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::e26f1b83-3400-40db-9e28-003b00d07f5c",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::b6c8984f-1da8-4c1e-a69e-2583bd9f1e02",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::fe8340c7-e64e-434d-9847-c017da640bf1",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/claude-4-sonnet|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::db160030-fbb6-4a00-81c2-c68854d8ccbd",
+    "judge_score": 0.3
+  }
+]

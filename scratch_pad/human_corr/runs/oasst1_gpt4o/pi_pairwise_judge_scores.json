@@ -1,0 +1,252 @@
+[
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::92ea14e1-d832-4345-adbc-375bebb498e2",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::06523b2e-7bd4-4725-befe-e61816269139",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::504fbab6-a1cf-4651-9c4f-902000aefd0e",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::f0653ef8-30ee-4698-9f5f-4e16a0dbeee1",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::db160030-fbb6-4a00-81c2-c68854d8ccbd",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::ebd8e1ce-9ff8-4ab3-979e-b2e9b708a5c3",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::ba5a201c-0002-4929-b150-17287bfee059",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::d20e08a4-d740-4063-8448-81dc39aac378",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::c1d71a39-0479-46be-91d4-fa56e840dc6b",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::8cf26173-5ec3-4d32-87f8-b5cd0a7af317",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::541b645a-0c9c-4387-bd5e-8105d2a4e4d0",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::bf8235b1-9b18-490a-9a65-09b10b64f527",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::65e4ec48-2687-472e-b985-79443e3d454b",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::cd44e0a8-e0c6-48d6-b62c-4f90c9ba0a43",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::543bce79-bded-4734-bb09-fee11ca2c140",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::2a1b99ef-140a-4e84-8aef-72e8babc8683",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::162ba9a0-8c06-4150-8323-fea608ffa0ab",
+    "judge_score": 0.3333333333333333,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::266fcb58-c0a8-4edd-b6da-78382a701830",
+    "judge_score": 0.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::ab39239d-3351-4ea9-8591-fee5ab07f04c",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::7f385c8b-12f8-41c8-a012-fe455af0e5c3",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::881b0a1d-a5b8-43f6-8642-c09e1762f089",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::e9efb972-b880-458f-bf94-9925c3688e5a",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::34aa6f1c-0148-4186-a9e9-162bff77a4ee",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::7f2a0550-e973-45fc-b71b-1e6419427330",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::1beeb99d-72bb-4289-b0ca-f00b714296a8",
+    "judge_score": 0.5,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::bd43e908-0c64-43b2-a230-c1bd4f16c623",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::a1a056fb-aad3-4a29-901f-5a33a7460c30",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::aec6bcbe-9340-49f6-9b0b-40c1120092ee",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::10afc04d-cf33-41f8-ab17-ad37f65b84ef",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::05efc0c5-5594-48f9-9db9-bf0837285185",
+    "judge_score": 0.5,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::50ea6cdf-9531-41c5-8f42-c42e60193104",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::81f9ce04-9335-47fc-92cd-f7c29c4affc9",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::96b6cb99-3bae-464b-b855-2cd596c31ad7",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::a9982a88-3eaf-46c1-8450-36f954727b10",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::ff3cd40d-904f-4b46-8d0c-b786c7042b85",
+    "judge_score": 0.6666666666666666,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::001199c7-7135-4e64-bee9-48ea862243b4",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::fe85075b-e489-4a59-8f94-eb695ed9ccc9",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::8d4e273d-8f5b-493e-b80b-9c1e5114c4ba",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::61198590-61dd-4cd7-8473-3ff01f91dcb5",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::c4f0a1f8-443f-4a50-84e8-63d9cb393ebf",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::1979f36a-28ec-4005-9b3b-bf66b80074f4",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::2ecacd7d-b125-4a07-bbb5-c81b42a4060a",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::4c031d45-0ff0-4174-a083-6d0b7db695d8",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::e26f1b83-3400-40db-9e28-003b00d07f5c",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::1596310c-ac65-45ac-b669-f5da50218109",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::69b80498-2ad5-4fee-8cf4-73f0f62d08bd",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::17a26965-1296-47bc-ae19-23de18255cce",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::f82522f9-0c24-4ce7-adba-a71c2ad3e2ff",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::dc09b58b-0721-4f04-8a0b-f90457732207",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "B"
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/pi_pairwise|0::05bd14dd-bf8e-4823-894a-bf73203f37d0",
+    "judge_score": 1.0,
+    "ground_truth_synthetic_slot": "A"
+  }
+]

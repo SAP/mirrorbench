@@ -1,0 +1,202 @@
+[
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::c682e5bc-9659-47b6-a2c4-21510480d382",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::7e8d5daf-b859-4524-a815-7578cf792e1a",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::81d1e552-c9fb-4a9f-81b2-fd39f21a2eee",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::86456b2d-509b-4eb6-8a5c-03f51c3f9aa5",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::db160030-fbb6-4a00-81c2-c68854d8ccbd",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::06523b2e-7bd4-4725-befe-e61816269139",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::7525fb19-b55c-47f7-bbf2-ee3e429c625a",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::ba5a201c-0002-4929-b150-17287bfee059",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::989da6ae-8981-4387-b121-9e1f980f77f0",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::e64144ff-77b3-4b19-9b83-d622a1fe1bc8",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::4c031d45-0ff0-4174-a083-6d0b7db695d8",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::d0f26041-86a9-417b-9c24-74a4b2707637",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::bcf108f3-95ea-4998-b661-ec0790cac746",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::bd5e9809-afc7-402a-bd4f-b8afc9914e4a",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::2f0e694c-8e60-42d0-888d-66eb26c6fd4c",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::1657e69e-e2e1-4243-af76-2c065be50a04",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::85209e8a-99f6-44f6-9ce0-efc7b2008306",
+    "judge_score": 0.3
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::4cef921d-caea-4bc6-b0ca-35efcd57825e",
+    "judge_score": 0.2
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::8d4e273d-8f5b-493e-b80b-9c1e5114c4ba",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::ee1af984-03ce-4488-98ba-8a728c01daa0",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::14d6ada8-de36-42c0-989f-ef25b76ea59a",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::881b0a1d-a5b8-43f6-8642-c09e1762f089",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::edd4a416-3cd7-4fa2-ab3b-3a2af526a4e9",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::0f109361-c23d-4915-804f-272f56d1de28",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::bf8235b1-9b18-490a-9a65-09b10b64f527",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::7adaed70-9a34-4e25-a026-836d2e1a8ace",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::5d8493fa-518c-4021-9172-a1804b1e9990",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::8cf26173-5ec3-4d32-87f8-b5cd0a7af317",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::fcfcd3a2-da4c-497d-a55d-74974fcf4208",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::aa92f802-7be2-493e-a848-872f36ff6536",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::2de5d608-f1ef-42c7-87c0-056fa60722b4",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::81cc2937-999b-4e99-9d53-9065a5173749",
+    "judge_score": 0.4
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::ff3cd40d-904f-4b46-8d0c-b786c7042b85",
+    "judge_score": 0.6
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::504fbab6-a1cf-4651-9c4f-902000aefd0e",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::b9f20b41-4756-462f-9ec0-21b1dcaba00d",
+    "judge_score": 0.95
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::7b6c1517-fd73-445c-aebf-fa3403e7a832",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::8b8e46b8-7859-46a7-bc00-4a8e888bfcce",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::a0655e7d-5e6b-44f5-878f-3968be245c02",
+    "judge_score": 0.85
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::8d133a5a-f25c-4738-ae22-8a4901dfc3db",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::1beeb99d-72bb-4289-b0ca-f00b714296a8",
+    "judge_score": 0.85
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::d67de972-f308-4cdf-b51a-f95c0bd36c5f",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::10afc04d-cf33-41f8-ab17-ad37f65b84ef",
+    "judge_score": 0.8
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::2ecacd7d-b125-4a07-bbb5-c81b42a4060a",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::921e6617-36c6-4532-b7f2-911bdf2a8817",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::227890b8-9c74-4e05-b9fb-8caee5376f11",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::ef32b7dd-b3a6-401f-bb22-89d00ebe8359",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::4382f5c7-51d7-477d-b382-dbab5d056c6b",
+    "judge_score": 0.7
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::8ad01e53-8f95-41fa-9a68-2503779b935b",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::3738d73b-9d1d-4759-b984-de5fa19ebd51",
+    "judge_score": 0.9
+  },
+  {
+    "sample_id": "proxy:langchain/gpt4o|dataset:jsonl/oasst1_mirror|default|metric:judge/gteval|0::a63c0890-d9ab-4599-8f16-4d96bdd030c1",
+    "judge_score": 0.8
+  }
+]
