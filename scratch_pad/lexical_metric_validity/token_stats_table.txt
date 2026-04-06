@@ -1,0 +1,36 @@
+=== Token Statistics per Dataset ===
+
+Dataset                   N   AvgTurns  AvgTokens  MedianTokens    P25    P75 ≥50(%)       ≥100(%)
+--------------------------------------------------------------------------------------------------
+chatbot_arena           195        1.2         44            18     10     38       18.5%      11.3%
+clariq                  200        4.0         37            36     30     43       10.5%       0.0%
+oasst1                  200        1.8         56            36     21     52       29.5%       6.0%
+qulac                   200        1.0          9             9      6     12        0.0%       0.0%
+
+Note: 'window' = MATTR window size = 50 tokens
+
+
+=== Proxy vs Human Token Counts (from existing paper runs) ===
+
+Dataset                        N  ProxyMean   Proxy≥50   HumanMean   Human≥50
+----------------------------------------------------------------------------
+chatbot_arena_mirror         313        841      63.9%         41      16.9%
+clariq_mirror                200         80      85.5%         37      10.5%
+oasst1_mirror                200        155      85.5%         54      32.5%
+qulac_mirror                 200         38      17.5%          9       0.0%
+
+Note: Proxy sequences are what the MATTR metric primarily evaluates.
+Human sequences serve as the normalization baseline.
+
+
+=== MATTR Length-Robustness (R²) ===
+
+Scope                               N       R²        Slope   MeanTokens
+------------------------------------------------------------------------
+pooled                            913   0.1206    -0.000666           36
+chatbot_arena_mirror              313   0.2317    -0.000776           41
+clariq_mirror                     200   0.3552    -0.005710           37
+oasst1_mirror                     200   0.0731    -0.000261           54
+qulac_mirror                      200   0.1633    -0.003599            9
+
+Low R² (< 0.10) indicates MATTR is robust to sequence length.
