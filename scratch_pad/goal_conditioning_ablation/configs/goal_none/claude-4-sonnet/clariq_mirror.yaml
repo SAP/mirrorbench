@@ -1,0 +1,84 @@
+run:
+  name: exp1_goal_none_claude_4_sonnet_clariq_mirror
+  seeds:
+  - 0
+  engine: async
+  max_concurrency: 8
+  timeout_seconds: 86400
+  cache:
+    enabled: true
+  observability:
+    log_json: false
+    log_level: INFO
+user_proxies:
+- name: proxy:langchain/claude-4-sonnet
+  adapter: adapter:generic/llm
+  params:
+    model_client: client:langchain/chat
+    client_params: &id001
+      model_import: cached_scripts.ChatBedrockConverse
+      model_kwargs:
+        model: anthropic--claude-4-sonnet
+        temperature: 0
+    request_params: {}
+    combine_system_and_history: true
+datasets:
+- name: dataset:jsonl/clariq_mirror
+  split: default
+  label: Clariq Mirror
+  params:
+    path: scratch_pad/data/clariq/clariq_mirror.jsonl
+    max_examples: 200
+metrics:
+- name: metric:judge/gteval
+  label: GTEval Realism
+  params:
+    judge_client_name: client:langchain/chat
+    judge_params: *id001
+    num_judge_samples: 1
+    compute_controls: true
+- name: metric:judge/pi_pairwise
+  label: Pairwise Indistinguishability
+  params:
+    judge_client_name: client:langchain/chat
+    judge_params: *id001
+    num_judge_samples: 3
+    compute_controls: true
+- name: metric:judge/rubric_and_reason
+  label: Rubric & Reason
+  params:
+    judge_client_name: client:langchain/chat
+    judge_params: *id001
+    num_judge_samples: 2
+    compute_controls: true
+scorecards:
+- name: human_likeness
+  weights:
+    metric:judge/gteval: 1.0
+    metric:judge/pi_pairwise: 1.0
+    metric:judge/rubric_and_reason: 1.0
+task_drivers:
+  dataset:jsonl/clariq_mirror:
+    driver: task:mirror/conversation
+    params:
+      assistant_model_client: client:langchain/chat
+      client_params:
+        model_import: cached_scripts.ChatOpenAI
+        model_kwargs:
+          model: gpt-4o
+          temperature: 0.2
+      request_params:
+        system_prompt: 'You are simulating a real human user for the MirrorBench evaluation
+          harness.
+
+          Respond with the next USER turn only. Do not write assistant messages, notes,
+          or any other analysis.
+
+          No additional dataset metadata provided. Respond naturally and plausibly
+          based on the ongoing conversation.
+
+          Match the length, tone, and specificity of real user utterances. If you
+          are unsure, respond naturally based on the assistant''s previous messages
+          like how a real human would. Note that your response MUST not contain anything
+          other than the USER utterance. Do not include any prefixes like ''User:''
+          or ''Human:'' as well. Just the raw message content.'
