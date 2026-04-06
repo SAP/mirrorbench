@@ -1,0 +1,69 @@
+run:
+  name: exp7_usp_oasst1_mirror
+  seeds:
+  - 0
+  engine: sync
+  max_concurrency: 1
+  timeout_seconds: 86400
+  cache:
+    enabled: true
+  observability:
+    log_json: false
+    log_level: INFO
+user_proxies:
+- name: proxy:usp/llama
+  adapter: adapter:usp/local
+  params:
+    model_path: rebuttal_experiments/exp7_usp_baseline/models/USP
+    max_new_tokens: 256
+    device: cuda:0
+datasets:
+- name: dataset:jsonl/oasst1_mirror
+  split: default
+  label: Oasst1 Mirror
+  params:
+    path: rebuttal_experiments/exp7_usp_baseline/data/oasst1_mirror_usp.jsonl
+    max_examples: 200
+metrics:
+- name: metric:judge/gteval
+  label: GTEval Realism
+  params:
+    judge_client_name: client:langchain/chat
+    judge_params: &id001
+      model_import: cached_scripts.ChatBedrockConverse
+      model_kwargs:
+        model: anthropic--claude-4-sonnet
+        temperature: 0
+    num_judge_samples: 1
+    compute_controls: true
+- name: metric:judge/pi_pairwise
+  label: Pairwise Indistinguishability
+  params:
+    judge_client_name: client:langchain/chat
+    judge_params: *id001
+    num_judge_samples: 3
+    compute_controls: true
+- name: metric:judge/rubric_and_reason
+  label: Rubric & Reason
+  params:
+    judge_client_name: client:langchain/chat
+    judge_params: *id001
+    num_judge_samples: 2
+    compute_controls: true
+scorecards:
+- name: human_likeness
+  weights:
+    metric:judge/gteval: 1.0
+    metric:judge/pi_pairwise: 1.0
+    metric:judge/rubric_and_reason: 1.0
+task_drivers:
+  dataset:jsonl/oasst1_mirror:
+    driver: task:mirror/conversation
+    params:
+      assistant_model_client: client:langchain/chat
+      client_params:
+        model_import: cached_scripts.ChatOpenAI
+        model_kwargs:
+          model: gpt-4o
+          temperature: 0.2
+      request_params: {}
