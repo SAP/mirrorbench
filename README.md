@@ -187,6 +187,17 @@ Copyright 2025 SAP SE or an SAP affiliate company and mirrorbench contributors. 
 If you like our work and find MirrorBench useful in your research, please consider citing the following paper:
 
 ```
+@inproceedings{
+hathidara2026mirrorbench,
+title={MirrorBench: A Benchmark to Evaluate Conversational User-Proxy Agents for Human-Likeness},
+author={Ashutosh Hathidara and Julien Yu and Vaishali Senthil and Sebastian Schreiber and Anil Babu Ankisettipalli},
+booktitle={KDD 2026 Datasets and Benchmarks Track (Cycle 2)},
+year={2026},
+url={https://openreview.net/forum?id=WWYowYlG70}
+}
+```
+
+```
 @misc{hathidara2026mirrorbenchextensibleframeworkevaluate,
       title={MirrorBench: An Extensible Framework to Evaluate User-Proxy Agents for Human-Likeness}, 
       author={Ashutosh Hathidara and Julien Yu and Vaishali Senthil and Sebastian Schreiber and Anil Babu Ankisettipalli},
