@@ -8,5 +8,17 @@
     "terminal.integrated.env.windows": {
         "CONDA_AUTO_ACTIVATE_BASE": "false"
     },
-    "terminal.integrated.defaultProfile.osx": "zsh"
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+        "configs"
+    ]
 }
