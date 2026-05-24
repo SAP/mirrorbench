@@ -13,8 +13,8 @@ build/
 develop-eggs/
 dist/
 downloads/
-eggs/
-.eggs/
+dev
+develop
 lib/
 lib64/
 parts/
